@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to bottom right, #9c4490, #ffcc99);
+  }
+  
+  .container {
+    max-width: 500px;
+  }
+  
+  .form-label {
+    font-weight: 100;
+  }
+  
+  .container h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  #errorMessages {
+    color: red;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .form-control:focus {
+    border-color: #33b5e5; /* Change color to indicate focus */
+    box-shadow: 0 0 10px rgba(0, 188, 229, 0.2); /* Add a subtle shadow */
+  }
+#registrationForm{
+  border: 1px solid #ccc; /* 1px solid border with light gray color */
+  padding: 20px; /* Add padding inside the border */
+  width: 300px; /* Set a fixed width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+  background-color: #f9f9f9; /* Light gray background color */
+  border-radius: 8px; /* Rounded corners for the box */
+}
